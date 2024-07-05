@@ -11,6 +11,10 @@ frontend stats
     stats realm {{ HAPROXY_CONFIG.stats.realm | replace(' ', '\ ') }}
 
     redirect code 301 location /stats if { path -i / }
+{%   if HAPROXY_CONFIG.stats.prometheus | bool %}
+   option http-use-htx
+   http-request use-service prometheus-exporter if { path /metrics }
+{%  endif %}
 
 {%   if not HAPROXY_CONFIG.stats.log | bool %}
     no log
