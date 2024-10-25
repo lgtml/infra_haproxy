@@ -49,10 +49,26 @@ ansible-galaxy install ansibleguy.infra_haproxy --roles-path ./roles
 
 ----
 
+## Advertisement
+
+* Need **professional support** using Ansible or HAProxy? Contact us:
+
+  E-Mail: [contact@oxl.at](mailto:contact@oxl.at)
+
+  Tel: [+43 720 302 5732](tel:+437203025732)
+
+  Web: [EN](https://www.o-x-l.com) | [DE](https://www.oxl.at)
+
+  Language: German or English
+
+* You want a simple **Ansible GUI**?
+
+  Check-out this [Ansible WebUI](https://github.com/ansibleguy/webui)
+
+----
+
 
 ## Usage
-
-You want a simple Ansible GUI? Check-out my [Ansible WebUI](https://github.com/ansibleguy/webui)
 
 ### Examples
 
